@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DOCENTE\\Desktop\\no borrar plz bro\\Proyectofinal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B764D9B2-B739-4AFF-AEA5-2ADB5D207CC3}|Proyectofinal\\Proyectofinal.vcxproj|C:\\Users\\DOCENTE\\Desktop\\no borrar plz bro\\Proyectofinal\\Proyectofinal\\Proyectofinal.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B764D9B2-B739-4AFF-AEA5-2ADB5D207CC3}|Proyectofinal\\Proyectofinal.vcxproj|solutionrelative:Proyectofinal\\Proyectofinal.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Proyectofinal.cpp",
+              "DocumentMoniker": "C:\\Users\\DOCENTE\\Desktop\\no borrar plz bro\\Proyectofinal\\Proyectofinal\\Proyectofinal.cpp",
+              "RelativeDocumentMoniker": "Proyectofinal\\Proyectofinal.cpp",
+              "ToolTip": "C:\\Users\\DOCENTE\\Desktop\\no borrar plz bro\\Proyectofinal\\Proyectofinal\\Proyectofinal.cpp",
+              "RelativeToolTip": "Proyectofinal\\Proyectofinal.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-14T15:26:33.79Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
