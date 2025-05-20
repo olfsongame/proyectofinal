@@ -227,6 +227,13 @@ int main()
                 mostrarVida(vida);
                 mostrarDinero(dinero);
                 cout << " *adept se para de la cama y se asoma a la ventana Barras Barras Pensalas* " << endl;
+                cout << " Encontraste una tienda " << endl;
+                cout << " Entrar? " << endl;
+                cout << "1. si " " 2. no " << endl;
+                cin >> opcion;
+                system("cls");
+                escenaTienda(dinero);
+
             }
             else  if (opcion == 2)
             {
