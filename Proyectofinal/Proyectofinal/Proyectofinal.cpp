@@ -181,6 +181,7 @@ int main()
     Item Cuchillo("Cuchillo bowie", "arma cac", 35, "Arma cuerpo a cuerpo con un gran daño de 35 de vida que es muy útil para abrirte paso contra los zombies.");
     Item Curacion("Botiquín", "consumible", 99, "Item de curación capaz de curar hasta 99 de vida, útil en momentos críticos.");
     Item Coleccionable("Escalera de Metal", "herramienta", 1, "Esta útil herramienta te ayudará a subir a lugares que no podías antes, es muy liviana para ser una escalera.");
+    Item llaveBodega ("Llave bodega", "herramienta", 1, "Esta util llave te permitira abrir la bodega y descubrir los tesoros que hay en ella ");
 
     //mochila.agregarItem(Cuchillo);
     //mochila.agregarItem(Curacion);
@@ -188,7 +189,7 @@ int main()
 
     int dinero = 100;
     int vida = 100;
-
+    
     //escenaDialogo(dinero, vida, mochila);
     //recogerDinero(dinero, 50);
     //escenaTienda(dinero);
@@ -211,9 +212,10 @@ int main()
             system("cls");
             //escena 1
             cout << "-*Esta es la historia de adept un chico que tenia una vida aburrida y horrible hasta que un dia algo cambio todo ese aburrimiento y desgracia por completo-*\n" << endl;
-            cout << "- Que dia mas aburrido, me despidieron de mi trabajo la escuela es muy aburrida y mi ex sigue mandandome mensaje de odio por algo que no hice - " << endl;
-            cout << "--Continuar-- (presione 1)" << endl;
-            cin >> opcion;
+            cout << "- Que dia mas aburrido, me despidieron de mi trabajo la escuela es muy aburrida y mi ex sigue mandandome mensaje de odio por algo que no hice - \n" << endl;
+            
+           
+            system("pause");
             system("cls");
             //escena 2
             cout << "(un silencio inmenso invade la habitacion)" << endl;
@@ -290,24 +292,61 @@ int main()
                     cout << "* Hacia que parte de el cuarto quieres ir ? * " << endl;
                     cout << " 1. Cocina 2. Cuarto 3. Salir " << endl;
                     cin >> opcion;
-                    
-                    switch (opcion)
+                    do
                     {
-                    case 1:
-                        system("cls");
-                        cout << "Te diriges a la cocina. Hay bastantes cajones ( investigarlos? )." << endl;
-                        cin >> opcion;
-                        break;
-                    case 2:
-                        cout << "Entras al cuarto. La cama está desordenada y hay una ventana abierta." << endl;
-                        break;
-                    case 3:
-                        cout << "Decides salir del departamento por ahora." << endl;
-                        break;
-                    default:
-                        cout << "Opción no válida. Intenta de nuevo." << endl;
-                        break;
-                    }
+                        int depa = 0;
+                        cin >> depa;
+                        switch (depa)
+                        {
+                        case 1:
+                            system("cls");
+                            cout << "Te diriges a la cocina. Hay bastantes cajones ( investigarlos? )." << endl;
+                            cout << "1. si " "2. no " << endl;
+                            cin >> opcion;
+                            if (opcion == 1)
+                            {
+                                cout << "( obtuviste la llave de la bodega ! )" << endl;
+                                mochila.agregarItem(llaveBodega);
+                                cout << " examinar objeto ? " << endl;
+                                cout << " 1. examinar " " 2. cancelar " << endl;
+                                cin >> opcion;
+                                if (opcion == 1)
+                                {
+                                    mochila.mostrarInventario();
+                                    cout << "salir ?" << endl;
+                                    cout << "1.  si " " 2. no " << endl;
+                                    cin >> opcion;
+                                    if (opcion == 1)
+                                    {
+                                        break;
+
+                                    }
+                                    else if (opcion == 2)
+                                    {
+                                        mochila.mostrarInventario();
+                                        cout << "salir ?" << endl;
+                                        cout << "1.  si " " 2. no " << endl;
+                                        cin >> opcion;
+                                    }
+                                }
+
+                            }
+                            else
+                            {
+
+                                break;
+                            }
+                        case 2:
+                            cout << "Entras al cuarto. La cama está desordenada y hay una ventana abierta." << endl;
+                            break;
+                        case 3:
+                            cout << "Decides salir del departamento por ahora." << endl;
+                            return 0;
+                        default:
+                            cout << "Opción no válida. Intenta de nuevo." << endl;
+                            break;
+                        }
+                    } while (true);
                     system("cls");
                     mostrarVida(vida);
                     mostrarDinero(dinero);

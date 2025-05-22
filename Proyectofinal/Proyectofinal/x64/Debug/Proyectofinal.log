@@ -1,5 +1,5 @@
 ﻿  Proyectofinal.cpp
-C:\Users\ALUMNO\OneDrive\Documentos\GitHub\proyectofinal\Proyectofinal\Proyectofinal\Proyectofinal.cpp(198,9): warning C4101: 'descicion1': variable local sin referencia
-C:\Users\ALUMNO\OneDrive\Documentos\GitHub\proyectofinal\Proyectofinal\Proyectofinal\Proyectofinal.cpp(198,21): warning C4101: 'descicion2': variable local sin referencia
-C:\Users\ALUMNO\OneDrive\Documentos\GitHub\proyectofinal\Proyectofinal\Proyectofinal\Proyectofinal.cpp(198,33): warning C4101: 'descicion3': variable local sin referencia
+C:\Users\ALUMNO\OneDrive\Documentos\GitHub\proyectofinal\Proyectofinal\Proyectofinal\Proyectofinal.cpp(199,9): warning C4101: 'descicion1': variable local sin referencia
+C:\Users\ALUMNO\OneDrive\Documentos\GitHub\proyectofinal\Proyectofinal\Proyectofinal\Proyectofinal.cpp(199,21): warning C4101: 'descicion2': variable local sin referencia
+C:\Users\ALUMNO\OneDrive\Documentos\GitHub\proyectofinal\Proyectofinal\Proyectofinal\Proyectofinal.cpp(199,33): warning C4101: 'descicion3': variable local sin referencia
   Proyectofinal.vcxproj -> C:\Users\ALUMNO\OneDrive\Documentos\GitHub\proyectofinal\Proyectofinal\x64\Debug\Proyectofinal.exe
