@@ -292,11 +292,9 @@ int main()
                     cout << "* Hacia que parte de el cuarto quieres ir ? * " << endl;
                     cout << " 1. Cocina 2. Cuarto 3. Salir " << endl;
                     cin >> opcion;
-                    do
-                    {
-                        int depa = 0;
-                        cin >> depa;
-                        switch (depa)
+                   
+                      
+                        switch (opcion)
                         {
                         case 1:
                             system("cls");
@@ -338,15 +336,16 @@ int main()
                             }
                         case 2:
                             cout << "Entras al cuarto. La cama está desordenada y hay una ventana abierta." << endl;
+
                             break;
                         case 3:
                             cout << "Decides salir del departamento por ahora." << endl;
-                            return 0;
+                            break;
                         default:
                             cout << "Opción no válida. Intenta de nuevo." << endl;
                             break;
                         }
-                    } while (true);
+                    
                     system("cls");
                     mostrarVida(vida);
                     mostrarDinero(dinero);
