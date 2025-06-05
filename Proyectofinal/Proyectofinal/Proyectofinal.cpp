@@ -550,7 +550,7 @@ int main()
                 cout << "maldicion no debi ponerme a jugar con ese terreneitor en la tienda abandonada en verdad llame mucho la atencion " << endl;
                 cout << " Y tampoco es como pueda CORRER PARA SIEMPRE " << endl;
                 cin >> opcion;
-                system("cls");
+                
                 mostrarVida(vida);
                 mostrarDinero(dinero);
                 cout << "alcanzas a ver una escalera de metal en el piso la recoges? " << endl;
@@ -564,12 +564,17 @@ int main()
                     mochila.agregarItem(Coleccionable);
                     cout << "Agarras la escalera de metal, frente a ti se encuentra una casa y estas rodeado subes al techo con la escalera?" << endl;
                     cout << "1.siiii 2.no, soy masoquista" << endl;
+                    cin >> opcion;
                     if (opcion == 1)
                     {
                         cout << "usas la escalera de metal retractil y logras salvarte de los zombies" << endl;
                         cout << " Si aprendi algo hoy es a no jugar en situaciones apocalipticas, eso fue horrible, bueno ahora que hago" << endl;
+                        cin >> opcion;
+                        system("cls");
                         cout << "adept fue saltando de techo en techo hasta que escucho una explosion junto a el " << endl;
                         cout << " (explozion KBOOM) " << endl;
+                        cin >> opcion;
+                        system("cls");
                         cout << "este dia va de mejor en mejor ahora que DEMO-" << endl;
                         cout << " antes de terminar la frase vemos a una chica hermosa de pelo rubio volteando a ver a adept por su grito con la explosion de fondo y una katana en mano (esto es muy cliche fr)" << endl;
                         cout << "wow y esa " << endl;
